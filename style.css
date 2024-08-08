@@ -1,0 +1,43 @@
+.formatacao {
+  font-family: cursive;
+  font-size: xx-large;
+  align-items: center;
+  padding: 5px 80px;
+}
+
+h1 {
+  color: #F587DD;
+  font-weight: 500;
+  font-family: fantasy;
+  font-size: 55px;
+}
+
+img {
+  width: 1200px;
+  height: 1200px;
+  border-radius: 50%;
+}
+
+.caixaFilmes {
+  top: 20px;
+  left: 20px;
+  background-color: #BAF3F6;
+  margin-bottom: 50px;
+  font-size: 80PX;
+}
+
+.caixaMusica {
+  background-color: #BAF3F6;
+  margin-bottom: 50px;
+  top: 20px;
+  left: 20px;
+}
+
+footer {
+  background-color: rgba(145, 167, 168, 0.4862745098);
+  font-family: Impact, Haettenschweiler, sans-serif;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  font-size: 24px;
+}/*# sourceMappingURL=style.css.map */
