@@ -2,42 +2,54 @@
   font-family: cursive;
   font-size: xx-large;
   align-items: center;
-  padding: 5px 80px;
+  padding: 5px 130px;
+  margin-top: 100px;
 }
-
-h1 {
+.formatacao h1 {
   color: #F587DD;
   font-weight: 500;
   font-family: fantasy;
   font-size: 55px;
 }
-
-img {
-  width: 1200px;
-  height: 1200px;
+.formatacao img {
+  width: 550px;
+  height: 650px;
   border-radius: 50%;
 }
 
-.caixaFilmes {
+.caixaGostos {
   top: 20px;
   left: 20px;
   background-color: #BAF3F6;
-  margin-bottom: 50px;
-  font-size: 80PX;
-}
-
-.caixaMusica {
-  background-color: #BAF3F6;
-  margin-bottom: 50px;
-  top: 20px;
-  left: 20px;
+  margin-bottom: 90px;
+  height: 380px;
 }
 
 footer {
   background-color: rgba(145, 167, 168, 0.4862745098);
-  font-family: Impact, Haettenschweiler, sans-serif;
+  font-family: fantasy;
   justify-content: center;
   display: flex;
   padding: 20px;
-  font-size: 24px;
+  font-size: 40px;
+}
+
+.charme {
+  z-index: -9;
+  background: #2696e8;
+  width: 550px;
+  height: 650px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #7a0274, 0 0 60px #f87ce6, 0 0 100px #5fb9f9;
+  animation: colors 4s infinite;
+  position: absolute;
+}
+
+@keyframes colors {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }/*# sourceMappingURL=style.css.map */

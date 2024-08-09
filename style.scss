@@ -2,8 +2,8 @@
   font-family:cursive;
   font-size: xx-large;
   align-items: center;
-  padding: 5px 80px;
-}
+  padding: 5px 130px;
+  margin-top: 100px;
 
 h1{
   color: #F587DD;
@@ -13,32 +13,50 @@ h1{
 }
 
 img{
-  width: 1200px;
-  height: 1200px;
+  width: 550px;
+  height: 650px;
   border-radius: 50%; //arredondar imagem
 }
 
-.caixaFilmes{
+}
+
+.caixaGostos{
   top: 20px;
   left: 20px;
   background-color: #BAF3F6;
-  margin-bottom: 50px;
-  font-size: 80PX;
-  }
-  
-
-.caixaMusica{
-  background-color: #BAF3F6;
-  margin-bottom: 50px ;
-  top: 20px;
-  left: 20px ;
+  margin-bottom: 90px;
+  height:380px ;
 }
 
 footer{
   background-color: #91a7a87c;
-  font-family:Impact, Haettenschweiler, sans-serif;
+  font-family: fantasy;
   justify-content: center;
   display: flex;
   padding: 20px;
-  font-size: 24px;
+  font-size: 40px;
+}
+
+
+//criação tamanho, formato, cores e tempo
+.charme{
+  z-index:-9;//empilhamento "fundo"
+  background: #2696e8; 
+  width:550px;
+  height: 650px;
+  border-radius:50%;
+  box-shadow:0 0 20px #7a0274 , 
+             0 0 60px #f87ce6 , //"borrão
+             0 0 100px #5fb9f9; // para causar a impressão de brilho
+  animation: colors 4s infinite;
+  position:absolute;
+} 
+//para fazer trocar de cores
+@keyframes colors{
+  0%{
+      filter: hue-rotate(0deg);
+    }
+  100%{
+      filter: hue-rotate(360deg);
+    }
 }
